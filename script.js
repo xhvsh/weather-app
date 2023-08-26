@@ -24,21 +24,21 @@ btn.addEventListener("click", () => {
   setTimeout(() => {
     changeProgress(22);
     title.innerHTML = h1;
-  }, 3000);
+  }, 1000);
   setTimeout(() => {
     changeProgress(45);
     title.innerHTML = h2;
-  }, 3500);
+  }, 2500);
   setTimeout(() => {
     changeProgress(85);
     title.innerHTML = h3;
-  }, 4600);
+  }, 5700);
   setTimeout(() => {
     changeProgress(98);
     title.innerHTML = h4;
-  }, 5266);
+  }, 7200);
   setTimeout(() => {
     changeProgress(100);
     title.innerHTML = h5;
-  }, 8000);
+  }, 10000);
 });
